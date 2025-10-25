@@ -168,7 +168,7 @@ Note: This may fail if user namespace remapping or other isolation controls are 
 
 ---
 
-## 10) Minimal report template for GitHub / deliverable
+## 10) Minimal report template
 ```
 # Findings - Docker Escapes (Summary)
 
@@ -190,15 +190,6 @@ Note: This may fail if user namespace remapping or other isolation controls are 
   - Remove privileged containers and socket mounts.
   - Enable userns, AppArmor/SELinux, and use signed registries.
 ```
-
----
-
-## 11) References
-- Trail of Bits — cgroup release_agent PoCs (research).  
-- Docker documentation — secure daemon configuration, TLS for daemon, best practices.  
-- Medium walkthrough: `https://medium.com/@DevSec0ps/container-vulnerabilities-tryhackme-thm-write-up-walkthrough-2525d0ecfbfd`
-
----
 
 ## 12) Responsible Use
 Perform these actions only in environments where you have explicit permission. Unauthorized use of these techniques is illegal and unethical.
